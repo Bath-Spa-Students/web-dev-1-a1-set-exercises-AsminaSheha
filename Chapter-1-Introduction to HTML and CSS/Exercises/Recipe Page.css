@@ -1,0 +1,10 @@
+/* styles.css */
+
+body {
+    background-image: url(Recipe\ page.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
