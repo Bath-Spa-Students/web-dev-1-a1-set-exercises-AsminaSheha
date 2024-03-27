@@ -1,0 +1,18 @@
+.container{background-color: aliceblue;
+    border: solid black 5px;
+    width: 100px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+}
+.item1{ background-color: orangered;}
+.item2{ background-color: yellowgreen;}
+.item3{ background-color: mediumpurple;}
+.item4{ background-color: hotpink;}
+.items{color: #000;
+    font-size: 20px;
+font-weight: bold;
+text-align: center;}
