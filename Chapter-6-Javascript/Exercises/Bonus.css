@@ -1,0 +1,72 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d81b60; 
+}
+
+#colorDisplay {
+    width: 300px;
+    height: 300px; 
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    color: #333; 
+}
+
+#message {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#colorOptions {
+    display: flex;
+    justify-content: center;
+}
+
+.colorOption {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#score, #lives {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resetButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ec407a; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetButton:hover {
+    background-color: #d81b60; 
+}
