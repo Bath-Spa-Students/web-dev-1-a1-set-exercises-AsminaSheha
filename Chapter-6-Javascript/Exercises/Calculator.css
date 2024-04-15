@@ -1,0 +1,66 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url('background.webp'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Light pink semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d81b60; /* Dark pink header */
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #d81b60; /* Dark pink labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f48fb1; /* Light pink border */
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #ec407a; /* Medium pink border on focus */
+    outline: none;
+}
+
+button {
+    background-color: #ec407a; /* Medium pink button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #d81b60; /* Dark pink button background on hover */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #d81b60; /* Dark pink total cost text */
+}
